@@ -5,5 +5,5 @@ We introduce TimeBERT, a novel language representation model trained on a tempor
 
 <p align="center">
   <img src="Figures/TimeBERT.png">
-  <figcaption>An illustration of TimeBERT training, which includes the TAMLM and DD tasks.</figcaption>
+  <center><figcaption>An illustration of TimeBERT training, which includes the TAMLM and DD tasks.</figcaption></center>
 </p>
