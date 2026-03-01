@@ -53,7 +53,7 @@ python BiTimeBERT_Pretraining/preprocess.py \
 | `--trainpref` | Path prefix for training corpus | `./data/0_corpus_train` |
 | `--validpref` | Path prefix for validation corpus | `./data/0_corpus_val` |
 | `--testpref` | Path prefix for test corpus | `./data/0_corpus_test` |
-| `--destdir` | **Output directory** for tokenized binaries | `./binarized_corpus` |
+| `--destdir` | Output directory for tokenized binaries | `./binarized_corpus` |
 | `--only-source` | Process source text only (no target) | *(flag, no value)* |
 | `--srcdict` | Path to source vocabulary dictionary | `dict.txt` |
 | `--padding-factor` | Memory alignment factor for efficiency | `1` |
@@ -86,5 +86,3 @@ python 3_TempBERT_MaskTemp/train.py \
 ---
 
 > ℹ️ **Note**: All paths in this guide are relative to the project root unless specified as absolute. Adjust according to your local setup.
-
-✅ **You're all set!** Once tokenization finishes, your data is ready for BiTimeBERT pretraining. 🎉
