@@ -1,5 +1,5 @@
 # BiTimeBERT
-This is the repository containing the code for the BiTimeBERT model described in the SIGIR 2023 paper **"Extending Pre-Trained Language Representations with Dual-Type Temporal Information"**.
+This is the repository containing the code for the BiTimeBERT model described in the SIGIR 2023 paper **"BiTimeBERT: Extending Pre-Trained Language Representations with Bi-Temporal Information"**.
 
 We introduce BiTimeBERT, a novel language representation model trained on a temporal collection of news articles via two new pre-training tasks, which harnesses two distinct temporal signals to construct time-aware language representations. The experimental results show that BiTimeBERT consistently outperforms BERT and other existing pre-trained models with substantial gains on different downstream NLP tasks and applications for which time is of importance.
 
